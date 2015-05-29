@@ -1,0 +1,23 @@
+# Options not set in httpd.conf
+# ------------------------------------------------
+Options +FollowSymlinks -Indexes
+
+# GZip content for extra oomph. \../ >_< \../
+# ------------------------------------------------
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript application/json
+
+# Rewriting magic.
+# ------------------------------------------------
+RewriteEngine on
+
+# Block useragent libwww-perl to discourage simpler vulnerability scans
+# ------------------------------------------------
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
+
+# CodeIgniter Rule
+# Unless requesting a valid file send to index.php
+# ------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
