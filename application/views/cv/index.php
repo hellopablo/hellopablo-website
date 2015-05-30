@@ -1,5 +1,6 @@
 <div class="title">
     <h1>
+        <b class="fa fa-file-text-o"></b>
         CV
     </h1>
 </div>
@@ -79,6 +80,7 @@
                 </p>
                 <p>
                     An opensource PHP framework and toolkit to make developing powerful PHP websites an absolute breeze.
+                </p>
             </li>
         </ul>
         <h2>
