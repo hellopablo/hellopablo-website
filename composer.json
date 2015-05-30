@@ -10,6 +10,7 @@
     "require":
     {
         "nailsapp/nails": "dev-develop",
-        "nailsapp/module-blog": "dev-develop"
+        "nailsapp/module-blog": "dev-develop",
+        "rollbar/rollbar": "~0.11.0"
     }
 }

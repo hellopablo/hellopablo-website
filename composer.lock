@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b9f87ad6559a95c9aab7880049fe7e0",
+    "hash": "a1100f02b99a5ad43e596092333b584f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1187,6 +1187,55 @@
             "time": "2014-11-25 11:27:54"
         },
         {
+            "name": "rollbar/rollbar",
+            "version": "v0.11.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rollbar/rollbar-php.git",
+                "reference": "1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d",
+                "reference": "1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/rollbar.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rollbar, Inc.",
+                    "email": "support@rollbar.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Monitors errors and exceptions and reports them to Rollbar",
+            "homepage": "http://github.com/rollbar/rollbar-php",
+            "keywords": [
+                "debugging",
+                "errors",
+                "exceptions",
+                "logging",
+                "monitoring"
+            ],
+            "time": "2015-05-27 21:44:30"
+        },
+        {
             "name": "sonata-project/google-authenticator",
             "version": "1.0.2",
             "source": {
@@ -1385,7 +1434,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.8",
+            "version": "v2.6.9",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",

@@ -10,6 +10,12 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 # ------------------------------------------------
 RewriteEngine on
 
+# Canonical URL
+# ------------------------------------------------
+RewriteCond %{HTTP_HOST} ^(www\.)?hellopablo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hellopablo\.co\.uk$
+RewriteRule ^(.*)$ http://hellopablo.co.uk/$1 [R=301,L]
+
 # Block useragent libwww-perl to discourage simpler vulnerability scans
 # ------------------------------------------------
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
