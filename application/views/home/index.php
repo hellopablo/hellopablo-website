@@ -5,7 +5,7 @@
     <h2>
         PHP Developer &amp; Interaction Engineer
         <br />
-        based in sunny London, UK working
+        based in sunny London, working
         <br />
         with the cool cats at <a href="http://theshed.io">Shed</a>.
     </h2>
@@ -18,6 +18,11 @@
             </a>
         </li>
         <li>
+            <a href="<?=site_url('code')?>">
+                <b class="fa fa-code"></b>
+            </a>
+        </li>
+        <li>
             <a href="https://twitter.com/hellopablo">
                 <b class="fa fa-twitter"></b>
             </a>
@@ -27,11 +32,6 @@
                 <b class="fa fa-instagram"></b>
             </a>
         </li>
-        <!--<li>
-            <a href="<?=site_url('blog')?>">
-                <b class="fa fa-book"></b>
-            </a>
-        </li>-->
     </ul>
     <ul class="links list-unstyled list-inline">
         <li>
@@ -49,5 +49,10 @@
                 <b class="fa fa-envelope-o"></b>
             </a>
         </li>
+        <!--<li>
+            <a href="<?=site_url('blog')?>">
+                <b class="fa fa-book"></b>
+            </a>
+        </li>-->
     </ul>
 </div>
