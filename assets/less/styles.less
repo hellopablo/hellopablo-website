@@ -1,0 +1,117 @@
+//  Bootstrap
+@import "../bower_components/bootstrap/less/variables.less";
+@import "../bower_components/bootstrap/less/mixins.less";
+@import "../bower_components/bootstrap/less/normalize.less";
+@import "../bower_components/bootstrap/less/print.less";
+@import "../bower_components/bootstrap/less/scaffolding.less";
+@import "../bower_components/bootstrap/less/type.less";
+@import "../bower_components/bootstrap/less/code.less";
+@import "../bower_components/bootstrap/less/grid.less";
+@import "../bower_components/bootstrap/less/forms.less";
+@import "../bower_components/bootstrap/less/buttons.less";
+@import "../bower_components/bootstrap/less/alerts.less";
+@import "../bower_components/bootstrap/less/wells.less";
+@import "../bower_components/bootstrap/less/utilities.less";
+
+//  FontAwesome
+@import "../bower_components/fontawesome/less/variables.less";
+@fa-font-path: "../bower_components/fontawesome/fonts";
+@import "../bower_components/fontawesome/less/mixins.less";
+@import "../bower_components/fontawesome/less/path.less";
+@import "../bower_components/fontawesome/less/core.less";
+@import "../bower_components/fontawesome/less/icons.less";
+
+// --------------------------------------------------------------------------
+
+@colour-1: #171E31;
+@colour-2: #1251EF;
+@colour-3: #186BEE;
+@colour-4: #1D81EE;
+@colour-5: #2190D9;
+
+// --------------------------------------------------------------------------
+
+#content {
+    background-color: @colour-5;
+    background-image: url(../img/wood-tile.png);
+    border-bottom: 1px solid #333;
+    height: 190px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: inset 0px -5px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.5s ease-out;
+    transition-delay: 0.1s;
+    .avatar {
+        text-indent: 0;
+        position: relative;
+        top: 80px;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        border: 3px solid #FFF;
+        box-shadow: 1px 0 4px rgba(0,0,0,0.2);
+    }
+    .title {
+        margin: auto;
+        position: relative;
+        top: 100px;
+        margin: 0 1em;
+        h1 {
+            font-size: 2.1em;
+            margin-bottom: 1em;
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+        }  
+        h2 {
+            font-size: 1.18em;
+            line-height: 1.6em;
+        }
+    }
+    .main-body {
+        position: relative;
+        top: 120px;
+        text-align: left;
+        padding-bottom: 1.5em;
+        h2 {
+            font-size: 1.4em;
+            line-height: 1.6em;
+            border-bottom: 1px dashed #CCC;
+            padding-bottom: 1.2em;
+            margin-bottom: 2.2em;
+            text-align: center;
+            margin-top: 3em;
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+        h3 {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .cv-list {
+            padding: 0 1.5em;
+            > li {
+                margin-bottom: 3em;
+            }
+            .cv-icon {
+                margin-right: 1em;
+                width: 60px;
+                height: 60px;
+                position: relative;
+                top: -5px;
+            }
+        }
+    }
+    .links {
+        font-size: 3em;
+        text-align: center;
+    }
+    .cv-intro {
+        margin-bottom: 4.5em;
+    }
+    .alerts,
+    .well {
+        position: relative;
+        top: 100px;
+    }
+}
