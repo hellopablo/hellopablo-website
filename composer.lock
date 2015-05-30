@@ -1,0 +1,1553 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a1100f02b99a5ad43e596092333b584f",
+    "packages": [
+        {
+            "name": "aws/aws-sdk-php",
+            "version": "2.4.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "61eaf675b7de9ce8b2c6b44317b01e6818ea16c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/61eaf675b7de9ce8b2c6b44317b01e6818ea16c3",
+                "reference": "61eaf675b7de9ce8b2c6b44317b01e6818ea16c3",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": ">=3.7.0,<3.9.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/cache": "~1.0",
+                "ext-openssl": "*",
+                "monolog/monolog": "1.4.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/class-loader": "2.*",
+                "symfony/yaml": "2.*"
+            },
+            "suggest": {
+                "doctrine/cache": "Adds support for caching of credentials and responses",
+                "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "monolog/monolog": "Adds support for logging HTTP requests and responses",
+                "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Aws": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2013-12-12 19:35:51"
+        },
+        {
+            "name": "dompdf/dompdf",
+            "version": "v0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dompdf/dompdf.git",
+                "reference": "cf7d8a0a27270418850cc7d7ea532159e5eeb3eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/cf7d8a0a27270418850cc7d7ea532159e5eeb3eb",
+                "reference": "cf7d8a0a27270418850cc7d7ea532159e5eeb3eb",
+                "shasum": ""
+            },
+            "require": {
+                "phenx/php-font-lib": "0.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "include/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                },
+                {
+                    "name": "Brian Sweeney",
+                    "email": "eclecticgeek@gmail.com"
+                }
+            ],
+            "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+            "homepage": "https://github.com/dompdf/dompdf",
+            "time": "2014-03-11 01:59:52"
+        },
+        {
+            "name": "guzzle/guzzle",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2014-01-28 22:29:15"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "1b161fb779ce352592fc0499b9a89713623a8ae5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/1b161fb779ce352592fc0499b9a89713623a8ae5",
+                "reference": "1b161fb779ce352592fc0499b9a89713623a8ae5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hybrid": "hybridauth/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT or GPL-3.0+)"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                }
+            ],
+            "description": "Open source social sign on PHP library.",
+            "homepage": "http://hybridauth.sourceforge.net",
+            "keywords": [
+                "OpenId",
+                "facebook",
+                "google",
+                "hybridauth",
+                "login",
+                "oauth",
+                "social",
+                "twitter",
+                "yahoo"
+            ],
+            "time": "2014-11-16 17:11:52"
+        },
+        {
+            "name": "masterexploder/phpthumb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterexploder/PHPThumb.git",
+                "reference": "69fe4dbef9c70915ee16652339395deadb1509cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/masterexploder/PHPThumb/zipball/69fe4dbef9c70915ee16652339395deadb1509cb",
+                "reference": "69fe4dbef9c70915ee16652339395deadb1509cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/filesystem": "2.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPThumb": "src",
+                    "PHPThumb\\Tests": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Selby",
+                    "email": "ian@gxdlabs.com",
+                    "homepage": "http://www.gen-x-design.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jarrod Nettles",
+                    "email": "jarrod.nettles@icloud.com"
+                }
+            ],
+            "description": "A library for manipulating images in PHP.",
+            "homepage": "https://github.com/masterexploder/PHPThumb",
+            "keywords": [
+                "image",
+                "resize",
+                "rotate"
+            ],
+            "time": "2013-07-12 17:57:58"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
+                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "~2.4, >2.4.8",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "raven/raven": "~0.5",
+                "ruflin/elastica": "0.90.*",
+                "swiftmailer/swiftmailer": "~5.3",
+                "videlalvaro/php-amqplib": "~2.4"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2015-03-09 09:58:04"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
+                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2014-04-14 01:24:40"
+        },
+        {
+            "name": "nailsapp/blog-skin-classic",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/blog-skin-classic.git",
+                "reference": "f97387ad10faf3cb9e67e162ee1cd35e0ea781fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/blog-skin-classic/zipball/f97387ad10faf3cb9e67e162ee1cd35e0ea781fc",
+                "reference": "f97387ad10faf3cb9e67e162ee1cd35e0ea781fc",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "type": "skin",
+                    "subType": "blog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Classic skin for the Nails Blog module",
+            "homepage": "http://nailsapp.co.uk/blog/skin/classic",
+            "keywords": [
+                "Nails",
+                "bootstrap",
+                "twitter bootstrap"
+            ],
+            "time": "2015-05-15 15:01:10"
+        },
+        {
+            "name": "nailsapp/common",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/common.git",
+                "reference": "be0e17ec324a80e9e5f6d2beb9292a271556524d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/common/zipball/be0e17ec324a80e9e5f6d2beb9292a271556524d",
+                "reference": "be0e17ec324a80e9e5f6d2beb9292a271556524d",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.13",
+                "rogeriopradoj/codeigniter": "2.2.1-rc.2",
+                "symfony/console": "~2.5.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Nails is a framework for CodeIgniter designed to make building interactive web applications fast.",
+            "homepage": "http://nailsapp.co.uk",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-05-18 09:31:22"
+        },
+        {
+            "name": "nailsapp/module-admin",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-admin.git",
+                "reference": "e137d6905e2cb5a640cacb4b7057652bba8a46a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-admin/zipball/e137d6905e2cb5a640cacb4b7057652bba8a46a9",
+                "reference": "e137d6905e2cb5a640cacb4b7057652bba8a46a9",
+                "shasum": ""
+            },
+            "require": {
+                "mustache/mustache": "v2.6.0",
+                "nailsapp/module-api": "dev-develop",
+                "nailsapp/module-auth": "dev-develop",
+                "nailsapp/module-cdn": "dev-develop",
+                "nailsapp/module-pdf": "dev-develop"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "admin",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Admin\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/admin",
+            "keywords": [
+                "Admin Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-04-20 00:34:38"
+        },
+        {
+            "name": "nailsapp/module-api",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-api.git",
+                "reference": "ced7b68a2cdcd0a47ae8f6902cf9b759b7fae835"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-api/zipball/ced7b68a2cdcd0a47ae8f6902cf9b759b7fae835",
+                "reference": "ced7b68a2cdcd0a47ae8f6902cf9b759b7fae835",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "api",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"API\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/api",
+            "keywords": [
+                "API Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-04-24 18:05:34"
+        },
+        {
+            "name": "nailsapp/module-asset",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-asset.git",
+                "reference": "513510b0ac5e57d3fb387092e51e2fe7f568374f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-asset/zipball/513510b0ac5e57d3fb387092e51e2fe7f568374f",
+                "reference": "513510b0ac5e57d3fb387092e51e2fe7f568374f",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "asset",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Asset\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/asset",
+            "keywords": [
+                "Asset Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-05-21 11:35:10"
+        },
+        {
+            "name": "nailsapp/module-auth",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-auth.git",
+                "reference": "3b309954fb3402bfa52ceafba2aa705091cba035"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-auth/zipball/3b309954fb3402bfa52ceafba2aa705091cba035",
+                "reference": "3b309954fb3402bfa52ceafba2aa705091cba035",
+                "shasum": ""
+            },
+            "require": {
+                "hybridauth/hybridauth": "~2.3.0",
+                "nailsapp/module-cdn": "dev-develop",
+                "nailsapp/module-curl": "dev-develop",
+                "sonata-project/google-authenticator": "1.0.2"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "auth",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Auth\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/auth",
+            "keywords": [
+                "Auth Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-05-13 16:55:25"
+        },
+        {
+            "name": "nailsapp/module-blog",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-blog.git",
+                "reference": "7383fa9ab09e793896887372c9b01de6a374657a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-blog/zipball/7383fa9ab09e793896887372c9b01de6a374657a",
+                "reference": "7383fa9ab09e793896887372c9b01de6a374657a",
+                "shasum": ""
+            },
+            "require": {
+                "nailsapp/blog-skin-classic": "dev-develop",
+                "nailsapp/module-cdn": "dev-develop"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "blog",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Blog\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/blog",
+            "keywords": [
+                "Blog Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-05-05 12:13:51"
+        },
+        {
+            "name": "nailsapp/module-cdn",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-cdn.git",
+                "reference": "2bf56c10143a3b6b0b1b4b0c2cd3761c4f61a0f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-cdn/zipball/2bf56c10143a3b6b0b1b4b0c2cd3761c4f61a0f0",
+                "reference": "2bf56c10143a3b6b0b1b4b0c2cd3761c4f61a0f0",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "~2.4.5",
+                "masterexploder/phpthumb": "dev-master",
+                "nailsapp/module-curl": "dev-develop",
+                "sybio/gif-creator": "~1.0.0",
+                "sybio/gif-frame-extractor": "~1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "cdn",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"CDN\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/cdn",
+            "keywords": [
+                "CDN Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-05-11 15:45:43"
+        },
+        {
+            "name": "nailsapp/module-curl",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-curl.git",
+                "reference": "e6a391c4804cf4114513c57b3cff0cb26b20dee2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-curl/zipball/e6a391c4804cf4114513c57b3cff0cb26b20dee2",
+                "reference": "e6a391c4804cf4114513c57b3cff0cb26b20dee2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "curl",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Curl\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/curl",
+            "keywords": [
+                "Curl Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-01-28 13:02:43"
+        },
+        {
+            "name": "nailsapp/module-email",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-email.git",
+                "reference": "1ef1a4430230856cdb6f563f81a79f8f49b33f1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-email/zipball/1ef1a4430230856cdb6f563f81a79f8f49b33f1a",
+                "reference": "1ef1a4430230856cdb6f563f81a79f8f49b33f1a",
+                "shasum": ""
+            },
+            "require": {
+                "nailsapp/common": "dev-develop"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "email",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Email\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/email",
+            "keywords": [
+                "Email Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-04-24 20:50:12"
+        },
+        {
+            "name": "nailsapp/module-event",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-event.git",
+                "reference": "9f6133ad5077bf44843e92406f30ec465a3a9986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-event/zipball/9f6133ad5077bf44843e92406f30ec465a3a9986",
+                "reference": "9f6133ad5077bf44843e92406f30ec465a3a9986",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "event",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Event\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/event",
+            "keywords": [
+                "Event Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-02-26 23:15:57"
+        },
+        {
+            "name": "nailsapp/module-pdf",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/module-pdf.git",
+                "reference": "3e59cfe4d188771a22dc14f920fb0669bb3f9df6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/module-pdf/zipball/3e59cfe4d188771a22dc14f920fb0669bb3f9df6",
+                "reference": "3e59cfe4d188771a22dc14f920fb0669bb3f9df6",
+                "shasum": ""
+            },
+            "require": {
+                "dompdf/dompdf": "~0.6.1"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "pdf",
+                    "type": "module"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"PDF\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/pdf",
+            "keywords": [
+                "Nails",
+                "PDF Module",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-02-12 17:39:14"
+        },
+        {
+            "name": "nailsapp/nails",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nailsapp/nails.git",
+                "reference": "cdf35073d41863de23b86612ecc6641e18695a3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nailsapp/nails/zipball/cdf35073d41863de23b86612ecc6641e18695a3c",
+                "reference": "cdf35073d41863de23b86612ecc6641e18695a3c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mcrypt": "*",
+                "nailsapp/common": "dev-develop",
+                "nailsapp/module-admin": "dev-develop",
+                "nailsapp/module-asset": "dev-develop",
+                "nailsapp/module-email": "dev-develop",
+                "nailsapp/module-event": "dev-develop",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "minPhpVersion": "5.4.0"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@shedcollective.org",
+                    "homepage": "http://shedcollective.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Nails dependency bootstrapper.",
+            "homepage": "http://nailsapp.co.uk",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2015-01-28 11:59:58"
+        },
+        {
+            "name": "phenx/php-font-lib",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-font-lib.git",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse, export and make subsets of different types of font files.",
+            "homepage": "https://github.com/PhenX/php-font-lib",
+            "time": "2014-02-01 15:22:28"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "rogeriopradoj/codeigniter",
+            "version": "2.2.1-rc.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rogeriopradoj/codeigniter-composer.git",
+                "reference": "c3b605d2e5dc3752da7e6843daed31bcf87e225f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rogeriopradoj/codeigniter-composer/zipball/c3b605d2e5dc3752da7e6843daed31bcf87e225f",
+                "reference": "c3b605d2e5dc3752da7e6843daed31bcf87e225f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "A way to install CodeIgniter via composer",
+            "time": "2014-11-25 11:27:54"
+        },
+        {
+            "name": "rollbar/rollbar",
+            "version": "v0.11.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rollbar/rollbar-php.git",
+                "reference": "1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d",
+                "reference": "1d8c5dce4a3eb2ed3f6767ae651f267ad354b43d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/rollbar.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rollbar, Inc.",
+                    "email": "support@rollbar.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Monitors errors and exceptions and reports them to Rollbar",
+            "homepage": "http://github.com/rollbar/rollbar-php",
+            "keywords": [
+                "debugging",
+                "errors",
+                "exceptions",
+                "logging",
+                "monitoring"
+            ],
+            "time": "2015-05-27 21:44:30"
+        },
+        {
+            "name": "sonata-project/google-authenticator",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/GoogleAuthenticator.git",
+                "reference": "72f47caddd09d09c0d3c3e046f6b435e0c004cd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sonata-project/GoogleAuthenticator/zipball/72f47caddd09d09c0d3c3e046f6b435e0c004cd4",
+                "reference": "72f47caddd09d09c0d3c3e046f6b435e0c004cd4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Google\\Authenticator\\": "lib/",
+                    "Google\\Authenticator\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Rabaix",
+                    "email": "thomas.rabaix@gmail.com",
+                    "homepage": "http://sonata-project.org/"
+                },
+                {
+                    "name": "Christian Stocker",
+                    "email": "me@chregu.tv"
+                },
+                {
+                    "name": "Andre DeMarre",
+                    "homepage": "http://www.devnetwork.net/viewtopic.php?f=50&t=94989"
+                }
+            ],
+            "description": "Library to integrate Google Authenticator into a PHP project",
+            "homepage": "https://github.com/sonata-project/GoogleAuthenticator",
+            "keywords": [
+                "google authenticator"
+            ],
+            "time": "2014-03-31 09:18:53"
+        },
+        {
+            "name": "sybio/gif-creator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sybio/GifCreator.git",
+                "reference": "250fc2f705181693c6c40b3d569d62353164bcbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sybio/GifCreator/zipball/250fc2f705181693c6c40b3d569d62353164bcbf",
+                "reference": "250fc2f705181693c6c40b3d569d62353164bcbf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GifCreator": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Guillemain",
+                    "homepage": "http://clementguillemain.fr",
+                    "role": "Developer / Freelancer"
+                }
+            ],
+            "description": "PHP class that creates animated GIF from multiple images",
+            "homepage": "https://github.com/Sybio/GifCreator",
+            "keywords": [
+                "animated",
+                "creation",
+                "encode",
+                "gif",
+                "php"
+            ],
+            "time": "2012-10-13 09:04:46"
+        },
+        {
+            "name": "sybio/gif-frame-extractor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sybio/GifFrameExtractor.git",
+                "reference": "13e9880add3ae9cca10a48a0a3897fe3d0069f71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sybio/GifFrameExtractor/zipball/13e9880add3ae9cca10a48a0a3897fe3d0069f71",
+                "reference": "13e9880add3ae9cca10a48a0a3897fe3d0069f71",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GifFrameExtractor": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Guillemain",
+                    "homepage": "http://clementguillemain.fr",
+                    "role": "Developer / Freelancer"
+                }
+            ],
+            "description": "PHP class that separates all the frames (and their duration) of an animated GIF",
+            "homepage": "https://github.com/Sybio/GifFrameExtractor",
+            "keywords": [
+                "animated",
+                "duration",
+                "frame",
+                "gif",
+                "php",
+                "separate",
+                "time"
+            ],
+            "time": "2012-10-13 09:06:51"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.5.12",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-08 07:07:45"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v2.6.9",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.0,>=2.0.5",
+                "symfony/dependency-injection": "~2.6",
+                "symfony/expression-language": "~2.6",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/stopwatch": "~2.3"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-05-02 15:18:45"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.2.11",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "dffe0df31d16718f36ef40e7441f5a8d3e31625a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/dffe0df31d16718f36ef40e7441f5a8d3e31625a",
+                "reference": "dffe0df31d16718f36ef40e7441f5a8d3e31625a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-09-18 07:27:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nailsapp/nails": 20,
+        "nailsapp/module-blog": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
