@@ -1,4 +1,7 @@
         </div>
+        <footer id="footer" class="text-center">
+            &copy; Pablo de la Pe&ntilde;a <?=date('Y')?> &ndash; @hellopablo
+        </footer>
         <?php
 
             $this->asset->output('JS');
@@ -19,7 +22,7 @@
                 <?php
 
             }
-            
+
         ?>
     </body>
 </html>
