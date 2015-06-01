@@ -7,7 +7,7 @@ _APP = function()
      */
     var base = this;
 
-    base.target = $('#content');
+    base.target = $('#header');
     base.winWidth = $(window).width();
     base.winHeight = $(window).height();
 
@@ -19,6 +19,9 @@ _APP = function()
      */
     base.__construct = function()
     {
+        /**
+         * Mouse movement colours
+         */
         $(document).on('mousemove', function(e) {
 
             base.calculateColour(e.pageX, e.pageY);
@@ -28,6 +31,78 @@ _APP = function()
 
             base.winWidth = $(window).width();
             base.winHeight = $(window).height();
+        });
+
+        // --------------------------------------------------------------------------
+
+        /**
+         * Fancybox, obvs
+         */
+        $('.fancybox').fancybox();
+
+        // --------------------------------------------------------------------------
+
+        /**
+         * Ta, da! mouseover effect on my cheeky face
+         */
+        var mouseOverTimeout;
+        var animating = false;
+        $('#header img')
+        .on('mouseover', function() {
+            if (animating) {
+                return;
+            } else {
+                animating = true;
+            }
+
+            var elem = $(this);
+            elem.addClass('animated tada');
+            clearTimeout(mouseOverTimeout);
+            mouseOverTimeout = setTimeout(function() {
+                elem.removeClass('animated tada');
+                animating = false;
+            }, 1000);
+        });
+
+        // --------------------------------------------------------------------------
+
+        /**
+         * Nav show/hide
+         */
+        var header = $('#header');
+        var navigation = $('#main-nav');
+        var headerHeight = header.outerHeight();
+
+        $(window).on('scroll', function() {
+
+            if ($(this).scrollTop() > headerHeight) {
+
+                navigation.addClass('active');
+
+            } else {
+
+                navigation.removeClass('active');
+            }
+        });
+
+        // --------------------------------------------------------------------------
+
+        /**
+         * Mobile Nav
+         */
+        var navItems = $('#mobile-nav-items');
+        $('#mobile-nav-toggle').on('click', function() {
+
+            if (navItems.hasClass('active')) {
+
+                navItems.slideUp();
+                navItems.removeClass('active');
+
+            } else {
+
+                navItems.slideDown();
+                navItems.addClass('active');
+            }
         });
     };
 

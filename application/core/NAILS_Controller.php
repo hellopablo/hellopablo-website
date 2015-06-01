@@ -10,6 +10,7 @@ class NAILS_Controller extends CORE_NAILS_Controller
         parent::__construct();
         $this->asset->load('styles.css');
         $this->asset->load('jquery/dist/jquery.min.js', 'BOWER');
+        $this->asset->load('fancybox/source/jquery.fancybox.pack.js', 'BOWER');
         $this->asset->load('app.min.js');
         $this->asset->load('retina.js/dist/retina.min.js', 'BOWER');
     }
