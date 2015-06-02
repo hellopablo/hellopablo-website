@@ -10,6 +10,11 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 # ------------------------------------------------
 RewriteEngine on
 
+# 301 redirects
+
+RewriteRule ^assets/pdf/pablodelapena_cv.pdf$ /cv [R=301,L]
+RewriteRule ^portfolio(.*)$ /cv [R=301,L]
+
 # Canonical URL
 # ------------------------------------------------
 RewriteCond %{HTTP_HOST} ^(www\.)?hellopablo\.com$ [OR]
@@ -18,7 +23,7 @@ RewriteRule ^(.*)$ http://hellopablo.co.uk/$1 [R=301,L]
 
 # Block useragent libwww-perl to discourage simpler vulnerability scans
 # ------------------------------------------------
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
 RewriteRule .* – [F,L]
 
 # CodeIgniter Rule

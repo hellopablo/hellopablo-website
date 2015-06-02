@@ -85,6 +85,20 @@
                         An opensource PHP framework and toolkit to make developing powerful PHP websites an absolute breeze.
                     </p>
                 </li>
+                <li class="text-muted">
+                    <div class="title">
+                        <img src="<?=site_url('assets/img/cv/comingsoon.png')?>" class="icon"/>
+                        <h3>
+                            More coming soon!
+                        </h3>
+                        <p>
+                            Website
+                        </p>
+                    </div>
+                    <p>
+                        There are more, I promise - just need to find time to write them up/make a microsite.
+                    </p>
+                </li>
             </ul>
             <h2 class="text-center">
                 Education
