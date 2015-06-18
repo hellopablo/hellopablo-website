@@ -67,6 +67,22 @@
             <ul class="media-list list-unstyled">
                 <li>
                     <div class="title">
+                        <img src="<?=site_url('assets/img/code/streetviewanimator.png')?>" class="icon"/>
+                        <h3>
+                            StreetView Animator
+                        </h3>
+                        <p>
+                            <a href="http://hellopablo.github.io/streetviewanimator">Demo</a>
+                            | <a href="https://github.com/hellopablo/streetviewanimator">Source</a>
+                        </p>
+                    </div>
+                    <p>
+                        A simple plugin for easily creating simple streetview animations or for stitching
+                        together beautifully complex scenes, dynamically.
+                    </p>
+                </li>
+                <li>
+                    <div class="title">
                         <img src="<?=site_url('assets/img/code/github.png')?>" class="icon"/>
                         <h3>
                              YouIdiotThisIsHowItsTyped
