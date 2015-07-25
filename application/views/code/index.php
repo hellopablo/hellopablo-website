@@ -23,6 +23,22 @@
                 </li>
                 <li>
                     <div class="title">
+                        <img src="<?=site_url('assets/img/code/frameplayer.png')?>" class="icon"/>
+                        <h3>
+                            FramePlayer
+                        </h3>
+                        <p>
+                            <a href="http://hellopablo.github.io/frameplayer">Demo</a>
+                            | <a href="https://github.com/hellopablo/frameplayer">Source</a>
+                        </p>
+                    </div>
+                    <p>
+                        FramePlayer is a simple javascript player for playing frame-based animations supplied
+                        as JSON arrays. It also supports "streaming" and is entirely event driven. Almost.
+                    </p>
+                </li>
+                <li>
+                    <div class="title">
                         <img src="<?=site_url('assets/img/code/github.png')?>" class="icon"/>
                         <h3>
                             Wide Slide
