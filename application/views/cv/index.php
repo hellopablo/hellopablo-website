@@ -78,7 +78,7 @@
                             Nails, a PHP framekit
                         </h3>
                         <p>
-                            <a href="https://nailsapp.co.uk">Website</a>
+                            <a href="http://nailsapp.co.uk">Website</a>
                         </p>
                     </div>
                     <p>
