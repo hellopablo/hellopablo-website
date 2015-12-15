@@ -1,9 +1,9 @@
 {
-  "name": "mycompany/myproject",
+  "name": "hellopablo/website",
   "version": "0.0.0",
-  "homepage": "http://www.example.com",
+  "homepage": "http://hellopablo.co.uk",
   "authors": [],
-  "description": "A description of the project.",
+  "description": "Personal website.",
   "license": "proprietary",
   "private": true,
   "ignore": [
