@@ -1,0 +1,31 @@
+version: "3.7"
+services:
+    webserver:
+        build: "docker/webserver"
+        links:
+            - db
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - './www:/var/www/html:cached'
+            - './docker/webserver/crontab:/home/www-bridge-user/crontab:delegated'
+            - './docker/webserver/crontab-root:/root/crontab:delegated'
+        environment:
+            - CERTBOT_EMAIL=
+            - PAGESPEED_ENABLE=on
+            - OPCACHE_VALIDATE_TIMESTAMPS=0
+
+    db:
+        build: "docker/db"
+        ports:
+            - "3306:3306"
+        volumes:
+            - 'mysql:/var/lib/mysql'
+        environment:
+            MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+            # Set credentials per environment
+            # i.e. in docker-compose.override.yml
+
+volumes:
+    mysql:
