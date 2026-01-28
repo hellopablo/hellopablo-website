@@ -1,18 +1,8 @@
-version: "3.7"
 services:
     webserver:
         links:
             - mail
         environment:
-            - DOMAIN=localhost
-            - PRIVATE_KEY=a83195fbae299431a07fcbd52429cc08e73b3c00e05b1d84ea12239794ddc75c
-            - ENVIRONMENT=DEVELOPMENT
-            - DB_HOST=db
-            - DB_USERNAME=docker
-            - DB_PASSWORD=docker
-            - DB_DATABASE=dev
-            - EMAIL_HOST=mail
-            - EMAIL_PORT=1025
             - OPCACHE_VALIDATE_TIMESTAMPS=1
 
     mail:
