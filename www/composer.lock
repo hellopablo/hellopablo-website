@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "annexare/countries-list",
-            "version": "3.2.2",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/annexare/Countries.git",
-                "reference": "66afd3a7f2739ef78fee1bbf9503b7d2299f0f5b"
+                "reference": "594a26dbc1394aed7220da88597b1a7cd0d02234"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/annexare/Countries/zipball/66afd3a7f2739ef78fee1bbf9503b7d2299f0f5b",
-                "reference": "66afd3a7f2739ef78fee1bbf9503b7d2299f0f5b",
+                "url": "https://api.github.com/repos/annexare/Countries/zipball/594a26dbc1394aed7220da88597b1a7cd0d02234",
+                "reference": "594a26dbc1394aed7220da88597b1a7cd0d02234",
                 "shasum": ""
             },
             "type": "library",
@@ -58,7 +58,7 @@
                 "issues": "https://github.com/annexare/Countries/issues",
                 "source": "https://github.com/annexare/Countries"
             },
-            "time": "2025-12-04T13:41:28+00:00"
+            "time": "2026-03-04T15:51:54+00:00"
         },
         {
             "name": "axisofstevil/stop-words",
@@ -523,16 +523,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "21dc724a0583619cd1652f673303492272778051"
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-                "reference": "21dc724a0583619cd1652f673303492272778051",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
                 "shasum": ""
             },
             "require": {
@@ -548,6 +548,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
+                "jshttp/mime-db": "1.54.0.1",
                 "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
@@ -619,7 +620,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.9.0"
             },
             "funding": [
                 {
@@ -635,20 +636,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T21:21:41+00:00"
+            "time": "2026-03-10T16:41:02+00:00"
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v3.12.2",
+            "version": "v3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "c6184bf92404394e918353a0ea0d35a97ac3b0fe"
+                "reference": "5f799ed5fd35e21f06cf42310f9f6ed3f7bbe7df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/c6184bf92404394e918353a0ea0d35a97ac3b0fe",
-                "reference": "c6184bf92404394e918353a0ea0d35a97ac3b0fe",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/5f799ed5fd35e21f06cf42310f9f6ed3f7bbe7df",
+                "reference": "5f799ed5fd35e21f06cf42310f9f6ed3f7bbe7df",
                 "shasum": ""
             },
             "require": {
@@ -695,9 +696,9 @@
             "support": {
                 "gitter": "https://gitter.im/hybridauth/hybridauth",
                 "issues": "https://github.com/hybridauth/hybridauth/issues",
-                "source": "https://github.com/hybridauth/hybridauth/tree/v3.12.2"
+                "source": "https://github.com/hybridauth/hybridauth/tree/v3.13.0"
             },
-            "time": "2025-06-18T11:58:48+00:00"
+            "time": "2026-04-02T19:11:26+00:00"
         },
         {
             "name": "jeremykendall/php-domain-parser",
@@ -904,12 +905,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/common.git",
-                "reference": "5367f7912969c098362201911841492640432776"
+                "reference": "50213e99a2b77b6f705a0ea39031a3d811499373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/common/zipball/5367f7912969c098362201911841492640432776",
-                "reference": "5367f7912969c098362201911841492640432776",
+                "url": "https://api.github.com/repos/nails/common/zipball/50213e99a2b77b6f705a0ea39031a3d811499373",
+                "reference": "50213e99a2b77b6f705a0ea39031a3d811499373",
                 "shasum": ""
             },
             "require": {
@@ -924,7 +925,7 @@
                 "guzzlehttp/guzzle": "7.*",
                 "jeremykendall/php-domain-parser": "6.*",
                 "mustache/mustache": "3.*",
-                "php": ">=8.1",
+                "php": ">=8.3",
                 "pimple/pimple": "3.*",
                 "pocketarc/codeigniter": "3.*",
                 "ralouphie/getallheaders": "3.*",
@@ -935,8 +936,8 @@
                 "vlucas/phpdotenv": "5.*"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1022,7 +1023,7 @@
                 "issues": "https://github.com/nails/common/issues",
                 "source": "https://github.com/nails/common/tree/develop"
             },
-            "time": "2026-01-06T10:04:56+00:00"
+            "time": "2026-04-22T11:05:51+00:00"
         },
         {
             "name": "nails/driver-error-handler-default",
@@ -1030,17 +1031,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/driver-error-handler-default.git",
-                "reference": "73549a38f1cae2010c8d95638b4619b12019d7ec"
+                "reference": "7329faa66d50e428af07386e11823c372ebee251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/driver-error-handler-default/zipball/73549a38f1cae2010c8d95638b4619b12019d7ec",
-                "reference": "73549a38f1cae2010c8d95638b4619b12019d7ec",
+                "url": "https://api.github.com/repos/nails/driver-error-handler-default/zipball/7329faa66d50e428af07386e11823c372ebee251",
+                "reference": "7329faa66d50e428af07386e11823c372ebee251",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=8.3"
+            },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1087,7 +1091,7 @@
                 "issues": "https://github.com/nails/driver-error-handler-default/issues",
                 "source": "https://github.com/nails/driver-error-handler-default/tree/develop"
             },
-            "time": "2025-12-02T20:32:32+00:00"
+            "time": "2026-04-22T09:21:23+00:00"
         },
         {
             "name": "nails/module-admin",
@@ -1095,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-admin.git",
-                "reference": "8367195b13885a95cda9361c079029b2746c5400"
+                "reference": "c1174774cb524d59db32e78a5a54d26312636723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-admin/zipball/8367195b13885a95cda9361c079029b2746c5400",
-                "reference": "8367195b13885a95cda9361c079029b2746c5400",
+                "url": "https://api.github.com/repos/nails/module-admin/zipball/c1174774cb524d59db32e78a5a54d26312636723",
+                "reference": "c1174774cb524d59db32e78a5a54d26312636723",
                 "shasum": ""
             },
             "require": {
@@ -1110,11 +1114,11 @@
                 "nails/module-cdn": "dev-develop",
                 "nails/module-console": "dev-develop",
                 "nails/module-cron": "dev-develop",
-                "php": ">=8.0"
+                "php": ">=8.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1177,7 +1181,7 @@
                 "issues": "https://github.com/nails/module-admin/issues",
                 "source": "https://github.com/nails/module-admin/tree/develop"
             },
-            "time": "2025-12-18T10:35:48+00:00"
+            "time": "2026-04-22T11:33:53+00:00"
         },
         {
             "name": "nails/module-api",
@@ -1185,22 +1189,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-api.git",
-                "reference": "31824fb0129ec9e6d7a930b672791d64201cd813"
+                "reference": "f3be8dc5b5ede6e05b894b3605c4afb4c8753bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-api/zipball/31824fb0129ec9e6d7a930b672791d64201cd813",
-                "reference": "31824fb0129ec9e6d7a930b672791d64201cd813",
+                "url": "https://api.github.com/repos/nails/module-api/zipball/f3be8dc5b5ede6e05b894b3605c4afb4c8753bdb",
+                "reference": "f3be8dc5b5ede6e05b894b3605c4afb4c8753bdb",
                 "shasum": ""
             },
             "require": {
                 "nails/common": "dev-develop",
                 "nails/module-auth": "dev-develop",
-                "nails/module-console": "dev-develop"
+                "nails/module-console": "dev-develop",
+                "php": ">=8.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1247,7 +1252,7 @@
                 "issues": "https://github.com/nails/module-api/issues",
                 "source": "https://github.com/nails/module-api/tree/develop"
             },
-            "time": "2025-12-02T20:54:00+00:00"
+            "time": "2026-04-22T09:22:00+00:00"
         },
         {
             "name": "nails/module-asset",
@@ -1255,13 +1260,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-asset.git",
-                "reference": "b46c4fbec68715edca77013f36bea4cf5492f55d"
+                "reference": "8a56f1f8a22806a70217a3c72796c75d429e6b2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-asset/zipball/b46c4fbec68715edca77013f36bea4cf5492f55d",
-                "reference": "b46c4fbec68715edca77013f36bea4cf5492f55d",
+                "url": "https://api.github.com/repos/nails/module-asset/zipball/8a56f1f8a22806a70217a3c72796c75d429e6b2a",
+                "reference": "8a56f1f8a22806a70217a3c72796c75d429e6b2a",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
             },
             "default-branch": true,
             "type": "library",
@@ -1308,7 +1316,7 @@
                 "issues": "https://github.com/nails/module-asset/issues",
                 "source": "https://github.com/nails/module-asset/tree/develop"
             },
-            "time": "2026-01-01T11:01:18+00:00"
+            "time": "2026-04-22T11:06:34+00:00"
         },
         {
             "name": "nails/module-auth",
@@ -1316,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-auth.git",
-                "reference": "abc4fc421df29dfc2b7dd7342942343b21a2cf6c"
+                "reference": "8c6e8e7cea7c21cf38c7f74a40117bddc5bbb883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-auth/zipball/abc4fc421df29dfc2b7dd7342942343b21a2cf6c",
-                "reference": "abc4fc421df29dfc2b7dd7342942343b21a2cf6c",
+                "url": "https://api.github.com/repos/nails/module-auth/zipball/8c6e8e7cea7c21cf38c7f74a40117bddc5bbb883",
+                "reference": "8c6e8e7cea7c21cf38c7f74a40117bddc5bbb883",
                 "shasum": ""
             },
             "require": {
@@ -1334,12 +1342,13 @@
                 "nails/module-console": "dev-develop",
                 "nails/module-email": "dev-develop",
                 "nails/module-form-builder": "dev-develop",
+                "php": ">=8.3",
                 "sonata-project/google-authenticator": "~2.3.0",
                 "wikimedia/common-passwords": "^v0.5"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1423,7 +1432,7 @@
                 "issues": "https://github.com/nails/module-auth/issues",
                 "source": "https://github.com/nails/module-auth/tree/develop"
             },
-            "time": "2026-01-01T06:01:49+00:00"
+            "time": "2026-04-22T11:14:05+00:00"
         },
         {
             "name": "nails/module-captcha",
@@ -1431,20 +1440,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-captcha.git",
-                "reference": "8933c97e76a690feabdd80c0736511e52b02057e"
+                "reference": "a4c71cf647cc58d3eef578a746f0b684cf8cea56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-captcha/zipball/8933c97e76a690feabdd80c0736511e52b02057e",
-                "reference": "8933c97e76a690feabdd80c0736511e52b02057e",
+                "url": "https://api.github.com/repos/nails/module-captcha/zipball/a4c71cf647cc58d3eef578a746f0b684cf8cea56",
+                "reference": "a4c71cf647cc58d3eef578a746f0b684cf8cea56",
                 "shasum": ""
             },
             "require": {
-                "nails/common": "dev-develop"
+                "nails/common": "dev-develop",
+                "php": ">=8.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "suggest": {
                 "nails/driver-captcha-recaptcha": "Adds support for Google reCAPTCHA."
@@ -1493,7 +1503,7 @@
                 "issues": "https://github.com/nails/module-captcha/issues",
                 "source": "https://github.com/nails/module-captcha/tree/develop"
             },
-            "time": "2025-12-02T20:33:09+00:00"
+            "time": "2026-04-22T09:22:14+00:00"
         },
         {
             "name": "nails/module-cdn",
@@ -1501,12 +1511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-cdn.git",
-                "reference": "95c595f77d032336615f7222ae5561832ee26348"
+                "reference": "c7bace8d62aea48453437a3769ff97b484ecdce9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-cdn/zipball/95c595f77d032336615f7222ae5561832ee26348",
-                "reference": "95c595f77d032336615f7222ae5561832ee26348",
+                "url": "https://api.github.com/repos/nails/module-cdn/zipball/c7bace8d62aea48453437a3769ff97b484ecdce9",
+                "reference": "c7bace8d62aea48453437a3769ff97b484ecdce9",
                 "shasum": ""
             },
             "require": {
@@ -1518,13 +1528,13 @@
                 "nails/module-auth": "dev-develop",
                 "nails/module-console": "dev-develop",
                 "nails/module-cron": "dev-develop",
-                "php": ">=8",
+                "php": ">=8.3",
                 "sybio/gif-creator": "~1.0.0",
                 "sybio/gif-frame-extractor": "~1.0.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "suggest": {
                 "nails/driver-cdn-awslocal": "Use AWS S3 for file storage.",
@@ -1611,7 +1621,7 @@
                 "issues": "https://github.com/nails/module-cdn/issues",
                 "source": "https://github.com/nails/module-cdn/tree/develop"
             },
-            "time": "2026-01-12T16:41:50+00:00"
+            "time": "2026-04-22T11:13:52+00:00"
         },
         {
             "name": "nails/module-console",
@@ -1619,21 +1629,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-console.git",
-                "reference": "066e62e650bc93021a30585e99ffaaa216131f26"
+                "reference": "26742970e068860234d5379eef15901576909afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-console/zipball/066e62e650bc93021a30585e99ffaaa216131f26",
-                "reference": "066e62e650bc93021a30585e99ffaaa216131f26",
+                "url": "https://api.github.com/repos/nails/module-console/zipball/26742970e068860234d5379eef15901576909afc",
+                "reference": "26742970e068860234d5379eef15901576909afc",
                 "shasum": ""
             },
             "require": {
                 "nails/common": "dev-develop",
+                "php": ">=8.3",
                 "symfony/console": "6.*"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1675,7 +1686,7 @@
                 "issues": "https://github.com/nails/module-console/issues",
                 "source": "https://github.com/nails/module-console/tree/develop"
             },
-            "time": "2025-12-02T20:33:24+00:00"
+            "time": "2026-04-22T09:22:30+00:00"
         },
         {
             "name": "nails/module-cron",
@@ -1683,22 +1694,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-cron.git",
-                "reference": "37117803eaf120af365a64d666870e51bb098ce6"
+                "reference": "5c272da8236d707d41486244de78c0dc32be8595"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-cron/zipball/37117803eaf120af365a64d666870e51bb098ce6",
-                "reference": "37117803eaf120af365a64d666870e51bb098ce6",
+                "url": "https://api.github.com/repos/nails/module-cron/zipball/5c272da8236d707d41486244de78c0dc32be8595",
+                "reference": "5c272da8236d707d41486244de78c0dc32be8595",
                 "shasum": ""
             },
             "require": {
                 "dragonmantank/cron-expression": "^3.0",
                 "nails/common": "dev-develop",
-                "nails/module-console": "dev-develop"
+                "nails/module-console": "dev-develop",
+                "php": ">=8.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1745,7 +1757,7 @@
                 "issues": "https://github.com/nails/module-cron/issues",
                 "source": "https://github.com/nails/module-cron/tree/develop"
             },
-            "time": "2025-12-02T20:33:26+00:00"
+            "time": "2026-04-22T09:22:33+00:00"
         },
         {
             "name": "nails/module-email",
@@ -1753,12 +1765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-email.git",
-                "reference": "2a2705daf13de591287aa2b0b68a0881283c9c88"
+                "reference": "7a7edd4463ed88e568db9058839bb010673e1564"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-email/zipball/2a2705daf13de591287aa2b0b68a0881283c9c88",
-                "reference": "2a2705daf13de591287aa2b0b68a0881283c9c88",
+                "url": "https://api.github.com/repos/nails/module-email/zipball/7a7edd4463ed88e568db9058839bb010673e1564",
+                "reference": "7a7edd4463ed88e568db9058839bb010673e1564",
                 "shasum": ""
             },
             "require": {
@@ -1766,11 +1778,12 @@
                 "nails/common": "dev-develop",
                 "nails/module-auth": "dev-develop",
                 "nails/module-console": "dev-develop",
+                "php": ">=8.3",
                 "phpmailer/phpmailer": "^6.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1834,7 +1847,7 @@
                 "issues": "https://github.com/nails/module-email/issues",
                 "source": "https://github.com/nails/module-email/tree/develop"
             },
-            "time": "2026-01-01T19:02:26+00:00"
+            "time": "2026-04-22T11:13:14+00:00"
         },
         {
             "name": "nails/module-form-builder",
@@ -1842,12 +1855,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/module-form-builder.git",
-                "reference": "daf90fec5c6f2f43a355de2e81e3fc0392144373"
+                "reference": "d080157695b37cc527d2f58fe642e56c2771f996"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/module-form-builder/zipball/daf90fec5c6f2f43a355de2e81e3fc0392144373",
-                "reference": "daf90fec5c6f2f43a355de2e81e3fc0392144373",
+                "url": "https://api.github.com/repos/nails/module-form-builder/zipball/d080157695b37cc527d2f58fe642e56c2771f996",
+                "reference": "d080157695b37cc527d2f58fe642e56c2771f996",
                 "shasum": ""
             },
             "require": {
@@ -1855,11 +1868,11 @@
                 "nails/common": "dev-develop",
                 "nails/module-auth": "dev-develop",
                 "nails/module-cdn": "dev-develop",
-                "php": ">=8.0"
+                "php": ">=8.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "2.*",
-                "phpunit/phpunit": "10.*"
+                "phpstan/phpstan": "^2.0",
+                "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1914,7 +1927,7 @@
                 "issues": "https://github.com/nails/module-form-builder/issues",
                 "source": "https://github.com/nails/module-form-builder/tree/develop"
             },
-            "time": "2026-01-01T11:03:19+00:00"
+            "time": "2026-04-22T11:14:19+00:00"
         },
         {
             "name": "nails/nails",
@@ -1922,12 +1935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nails/nails.git",
-                "reference": "f6f7f8b5fc982cd79a0ab50a57642ab027887352"
+                "reference": "ac04dddb23a4ac52ea7d51752417a1f586db80d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nails/nails/zipball/f6f7f8b5fc982cd79a0ab50a57642ab027887352",
-                "reference": "f6f7f8b5fc982cd79a0ab50a57642ab027887352",
+                "url": "https://api.github.com/repos/nails/nails/zipball/ac04dddb23a4ac52ea7d51752417a1f586db80d2",
+                "reference": "ac04dddb23a4ac52ea7d51752417a1f586db80d2",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1949,8 @@
                 "nails/module-admin": "dev-develop",
                 "nails/module-asset": "dev-develop",
                 "nails/module-console": "dev-develop",
-                "nails/module-email": "dev-develop"
+                "nails/module-email": "dev-develop",
+                "php": ">=8.3"
             },
             "default-branch": true,
             "type": "library",
@@ -1970,7 +1984,7 @@
                 "issues": "https://github.com/nails/nails/issues",
                 "source": "https://github.com/nails/nails/tree/develop"
             },
-            "time": "2025-12-02T20:34:31+00:00"
+            "time": "2026-04-22T09:14:50+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2180,16 +2194,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.6.1",
+            "version": "v3.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "020029849cc55ad360066844df8ed880fb20c5bb"
+                "reference": "8cfe7f74ac22a433d303914eba9ea4c2a834edce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/020029849cc55ad360066844df8ed880fb20c5bb",
-                "reference": "020029849cc55ad360066844df8ed880fb20c5bb",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/8cfe7f74ac22a433d303914eba9ea4c2a834edce",
+                "reference": "8cfe7f74ac22a433d303914eba9ea4c2a834edce",
                 "shasum": ""
             },
             "require": {
@@ -2202,7 +2216,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
@@ -2227,22 +2241,22 @@
                 "dependency injection"
             ],
             "support": {
-                "source": "https://github.com/silexphp/Pimple/tree/v3.6.1"
+                "source": "https://github.com/silexphp/Pimple/tree/v3.6.2"
             },
-            "time": "2025-12-31T08:24:29+00:00"
+            "time": "2026-02-26T08:23:44+00:00"
         },
         {
             "name": "pocketarc/codeigniter",
-            "version": "3.4.1",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pocketarc/codeigniter.git",
-                "reference": "dca13487782dec544be1ffaa59493fa2121ee303"
+                "reference": "3bb853dc4d067848438771449093b732f0c1e81f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pocketarc/codeigniter/zipball/dca13487782dec544be1ffaa59493fa2121ee303",
-                "reference": "dca13487782dec544be1ffaa59493fa2121ee303",
+                "url": "https://api.github.com/repos/pocketarc/codeigniter/zipball/3bb853dc4d067848438771449093b732f0c1e81f",
+                "reference": "3bb853dc4d067848438771449093b732f0c1e81f",
                 "shasum": ""
             },
             "require": {
@@ -2250,7 +2264,7 @@
             },
             "require-dev": {
                 "mikey179/vfsstream": "1.6.*",
-                "phpunit/phpunit": "4.* || 5.* || 9.*"
+                "phpunit/phpunit": "4.* || 5.* || 8.* || 9.*"
             },
             "suggest": {
                 "paragonie/random_compat": "Provides better randomness in PHP 5.x"
@@ -2266,7 +2280,7 @@
                 "issues": "https://github.com/pocketarc/codeigniter/issues",
                 "source": "https://github.com/pocketarc/codeigniter"
             },
-            "time": "2026-01-19T14:46:06+00:00"
+            "time": "2026-03-21T14:02:19+00:00"
         },
         {
             "name": "psr/container",
@@ -2707,16 +2721,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.32",
+            "version": "v6.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0bc2199c6c1f05276b05956f1ddc63f6d7eb5fc3"
+                "reference": "9f481cfb580db8bcecc9b2d4c63f3e13df022ad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0bc2199c6c1f05276b05956f1ddc63f6d7eb5fc3",
-                "reference": "0bc2199c6c1f05276b05956f1ddc63f6d7eb5fc3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/9f481cfb580db8bcecc9b2d4c63f3e13df022ad5",
+                "reference": "9f481cfb580db8bcecc9b2d4c63f3e13df022ad5",
                 "shasum": ""
             },
             "require": {
@@ -2781,7 +2795,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.32"
+                "source": "https://github.com/symfony/console/tree/v6.4.36"
             },
             "funding": [
                 {
@@ -2801,7 +2815,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-13T08:45:59+00:00"
+            "time": "2026-03-27T15:30:51+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2872,16 +2886,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v6.4.33",
+            "version": "v6.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f1a490cc9d595ba7ebe684220e625d1e472ad278"
+                "reference": "cffffd0a2c037117b742b4f8b379a22a2a33f6d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f1a490cc9d595ba7ebe684220e625d1e472ad278",
-                "reference": "f1a490cc9d595ba7ebe684220e625d1e472ad278",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/cffffd0a2c037117b742b4f8b379a22a2a33f6d2",
+                "reference": "cffffd0a2c037117b742b4f8b379a22a2a33f6d2",
                 "shasum": ""
             },
             "require": {
@@ -2929,7 +2943,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.33"
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.35"
             },
             "funding": [
                 {
@@ -2949,20 +2963,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-27T15:04:55+00:00"
+            "time": "2026-03-06T11:15:58+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v6.4.32",
+            "version": "v6.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "7409686879ca36c09fc970a5fa8ff6e93504dba4"
+                "reference": "9c31726137c70798f815fb98293ffb8a2a47694c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/7409686879ca36c09fc970a5fa8ff6e93504dba4",
-                "reference": "7409686879ca36c09fc970a5fa8ff6e93504dba4",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/9c31726137c70798f815fb98293ffb8a2a47694c",
+                "reference": "9c31726137c70798f815fb98293ffb8a2a47694c",
                 "shasum": ""
             },
             "require": {
@@ -3018,7 +3032,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v6.4.32"
+                "source": "https://github.com/symfony/mime/tree/v6.4.36"
             },
             "funding": [
                 {
@@ -3038,20 +3052,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-04T11:53:14+00:00"
+            "time": "2026-03-30T09:31:23+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/141046a8f9477948ff284fa65be2095baafb94f2",
+                "reference": "141046a8f9477948ff284fa65be2095baafb94f2",
                 "shasum": ""
             },
             "require": {
@@ -3101,7 +3115,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3121,20 +3135,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2026-04-10T16:19:22+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70"
+                "reference": "ad1b7b9092976d6c948b8a187cec9faaea9ec1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/380872130d3a5dd3ace2f4010d95125fde5d5c70",
-                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/ad1b7b9092976d6c948b8a187cec9faaea9ec1df",
+                "reference": "ad1b7b9092976d6c948b8a187cec9faaea9ec1df",
                 "shasum": ""
             },
             "require": {
@@ -3183,7 +3197,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3203,11 +3217,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-27T09:58:17+00:00"
+            "time": "2026-04-10T16:19:22+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
@@ -3270,7 +3284,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3294,7 +3308,7 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -3355,7 +3369,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3379,16 +3393,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+                "reference": "6a21eb99c6973357967f6ce3708cd55a6bec6315"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
-                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6a21eb99c6973357967f6ce3708cd55a6bec6315",
+                "reference": "6a21eb99c6973357967f6ce3708cd55a6bec6315",
                 "shasum": ""
             },
             "require": {
@@ -3440,7 +3454,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3460,20 +3474,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-23T08:48:59+00:00"
+            "time": "2026-04-10T17:25:58+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
-                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+                "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
                 "shasum": ""
             },
             "require": {
@@ -3524,7 +3538,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3544,20 +3558,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-02T08:10:11+00:00"
+            "time": "2026-04-10T16:19:22+00:00"
         },
         {
             "name": "symfony/polyfill-php83",
-            "version": "v1.33.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php83.git",
-                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5"
+                "reference": "3600c2cb22399e25bb226e4a135ce91eeb2a6149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/17f6f9a6b1735c0f163024d959f700cfbc5155e5",
-                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5",
+                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/3600c2cb22399e25bb226e4a135ce91eeb2a6149",
+                "reference": "3600c2cb22399e25bb226e4a135ce91eeb2a6149",
                 "shasum": ""
             },
             "require": {
@@ -3604,7 +3618,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.33.0"
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3624,7 +3638,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-08T02:45:35+00:00"
+            "time": "2026-04-10T17:25:58+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -3715,16 +3729,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.30",
+            "version": "v6.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "50590a057841fa6bf69d12eceffce3465b9e32cb"
+                "reference": "2adaf4106f2ef4c67271971bde6d3fe0a6936432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/50590a057841fa6bf69d12eceffce3465b9e32cb",
-                "reference": "50590a057841fa6bf69d12eceffce3465b9e32cb",
+                "url": "https://api.github.com/repos/symfony/string/zipball/2adaf4106f2ef4c67271971bde6d3fe0a6936432",
+                "reference": "2adaf4106f2ef4c67271971bde6d3fe0a6936432",
                 "shasum": ""
             },
             "require": {
@@ -3780,7 +3794,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.30"
+                "source": "https://github.com/symfony/string/tree/v6.4.34"
             },
             "funding": [
                 {
@@ -3800,7 +3814,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-21T18:03:05+00:00"
+            "time": "2026-02-08T20:44:54+00:00"
         },
         {
             "name": "symfony/translation-contracts",
