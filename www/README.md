@@ -33,7 +33,7 @@ Finally, if at any time you wish to migrate the database then simply execute:
 
 Included in the skeleton is a [Laravel Mix](https://laravel-mix.com/docs/2.1/basic-example) configuration to compile your styles and JS with [Webpack](https://webpack.js.org/). By default compiled files are ignored from VCS so as to minimise conflicts.
 
-Start by installing the compiling dependencies of your project:
+Start by installing the compiling dependencies of your project. Node.js is pinned in the repository root `.nvmrc` (`nvm use` from the repo root):
 
 ```
 npm install

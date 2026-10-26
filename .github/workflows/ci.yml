@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4.27"
+          coverage: none
+          tools: composer:v2
+          extensions: mbstring, xml, curl, zip, intl, mysqli, pdo_mysql, tokenizer, fileinfo
+
+      - name: Install Yarn
+        run: npm install -g yarn@1.22.22
+
+      - name: Check Node pin
+        run: bash .agents/scripts/check-node-pin.sh
+
+      - name: Install PHP dependencies
+        working-directory: www
+        env:
+          COMPOSER_AUTH: '{"github-oauth":{"github.com":"${{ github.token }}"}}'
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Install, build, and test
+        working-directory: www
+        run: yarn install --frozen-lockfile && yarn production && yarn test
+
+      - name: PHPStan
+        working-directory: www
+        run: vendor/bin/phpstan clear-result-cache && vendor/bin/phpstan analyse --no-progress --memory-limit=1G
