@@ -35,7 +35,10 @@ jobs:
         working-directory: www
         env:
           COMPOSER_AUTH: '{"github-oauth":{"github.com":"${{ github.token }}"}}'
-        run: composer install --no-interaction --prefer-dist
+        run: |
+          # Nails refuses to boot the post-autoload script without PRIVATE_KEY.
+          cp .env.example .env
+          composer install --no-interaction --prefer-dist
 
       - name: Install, build, and test
         working-directory: www
