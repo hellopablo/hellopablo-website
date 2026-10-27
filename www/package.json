@@ -11,7 +11,8 @@
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js"
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js",
+        "test": "node -e \"console.log('placeholder: no application tests')\""
     },
     "devDependencies": {
         "@babel/core": "^7.2",

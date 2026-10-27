@@ -4,10 +4,13 @@ docker info > /dev/null 2>&1 || (echo 'Docker Engine is not running' && exit 1);
 
 # --------------------------------------------------------------------------
 
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+NODE_VERSION="$(tr -d '[:space:]' < "${ROOT}/.nvmrc")"
+
 if [[ $1 == "containers" ]]; then
-    docker-compose build --pull
+    docker-compose build --pull --build-arg NODE_VERSION="$NODE_VERSION"
 elif [[ $1 == "xdebug" ]]; then
-    docker-compose build --pull --build-arg PHP_XDEBUG=1
+    docker-compose build --pull --build-arg PHP_XDEBUG=1 --build-arg NODE_VERSION="$NODE_VERSION"
 elif [[ $1 == "blackfire" ]]; then
 
     echo "Blackfire Client ID:"
@@ -23,6 +26,7 @@ elif [[ $1 == "blackfire" ]]; then
     read PHP_BLACKFIRE_SERVER_TOKEN
 
     docker-compose build --pull \
+      --build-arg NODE_VERSION="$NODE_VERSION" \
       --build-arg PHP_BLACKFIRE=1 \
       --build-arg PHP_BLACKFIRE_CLIENT_ID=$PHP_BLACKFIRE_CLIENT_ID \
       --build-arg PHP_BLACKFIRE_CLIENT_TOKEN=$PHP_BLACKFIRE_CLIENT_TOKEN \
