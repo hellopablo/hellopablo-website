@@ -1,0 +1,175 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Binary operation "\." between mixed and ''config/autoload\.php'' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/config/autoload.php
+
+		-
+			message: '#^Constant NAILS_COMMON_PATH not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: application/config/autoload.php
+
+		-
+			message: '#^Binary operation "\." between mixed and ''config/config\.php'' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/config/config.php
+
+		-
+			message: '#^Constant NAILS_COMMON_PATH not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: application/config/config.php
+
+		-
+			message: '#^Binary operation "\." between mixed and ''config/constants\.php'' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/config/constants.php
+
+		-
+			message: '#^Constant NAILS_COMMON_PATH not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: application/config/constants.php
+
+		-
+			message: '#^Binary operation "\." between mixed and ''config/mimes\.php'' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/config/mimes.php
+
+		-
+			message: '#^Constant NAILS_COMMON_PATH not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: application/config/mimes.php
+
+		-
+			message: '#^Binary operation "\." between mixed and ''config/routes\.php'' results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/config/routes.php
+
+		-
+			message: '#^Constant NAILS_COMMON_PATH not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: application/config/routes.php
+
+		-
+			message: '#^Call to an undefined method object\:\:setData\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: application/modules/code/controllers/Code.php
+
+		-
+			message: '#^Cannot call method load\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: application/modules/code/controllers/Code.php
+
+		-
+			message: '#^Function site_url not found\.$#'
+			identifier: function.notFound
+			count: 7
+			path: application/modules/code/views/index.php
+
+		-
+			message: '#^Parameter \#1 \(mixed\) of echo cannot be converted to string\.$#'
+			identifier: echo.nonString
+			count: 7
+			path: application/modules/code/views/index.php
+
+		-
+			message: '#^Call to an undefined method object\:\:setData\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: application/modules/cv/controllers/Cv.php
+
+		-
+			message: '#^Cannot call method load\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: application/modules/cv/controllers/Cv.php
+
+		-
+			message: '#^Function site_url not found\.$#'
+			identifier: function.notFound
+			count: 6
+			path: application/modules/cv/views/index.php
+
+		-
+			message: '#^Parameter \#1 \(mixed\) of echo cannot be converted to string\.$#'
+			identifier: echo.nonString
+			count: 6
+			path: application/modules/cv/views/index.php
+
+		-
+			message: '#^Call to an undefined method object\:\:load\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: application/modules/home/controllers/Home.php
+
+		-
+			message: '#^Function siteUrl not found\.$#'
+			identifier: function.notFound
+			count: 2
+			path: application/modules/home/views/index.php
+
+		-
+			message: '#^Parameter \#1 \(mixed\) of echo cannot be converted to string\.$#'
+			identifier: echo.nonString
+			count: 2
+			path: application/modules/home/views/index.php
+
+		-
+			message: '#^Binary operation "\." between ''\<b class\="fa '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Function anchor not found\.$#'
+			identifier: function.notFound
+			count: 3
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Function asset not found\.$#'
+			identifier: function.notFound
+			count: 3
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Function img not found\.$#'
+			identifier: function.notFound
+			count: 3
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Function siteUrl not found\.$#'
+			identifier: function.notFound
+			count: 4
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Parameter \#1 \(mixed\) of echo cannot be converted to string\.$#'
+			identifier: echo.nonString
+			count: 8
+			path: application/views/structure/header/default.php
+
+		-
+			message: '#^Method App\\Tests\\Bootstrap\:\:setUp\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: src/Tests/Bootstrap.php
+
+		-
+			message: '#^Method App\\Tests\\Bootstrap\:\:tearDown\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: src/Tests/Bootstrap.php
